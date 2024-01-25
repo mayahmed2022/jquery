@@ -1,0 +1,149 @@
+#home{
+background-image: linear-gradient(#0000004d , #0000004d)  ,url(../photes/event\ img.jpg) ;
+ height: 100vh;
+ background-position: center center;
+ background-size: cover;
+
+}
+
+#home h1{
+    font-size: 50px;
+    color: white;
+}
+
+#home span{
+    color: white;
+}
+
+#sideBar{
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:999 ;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+  
+
+
+.side-box a{
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    transition: all 0.5s;
+
+}
+.side-box a:hover{
+    color: rgb(237, 14, 137);
+}
+.side-box i{
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+
+}
+.side-box {
+    background-color: black;
+    height: 100vh;
+    
+}
+.part2 i{
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+}
+.part2 span{
+    color: white;
+    font-size: 30px;
+    
+}
+#part{
+    display: none;
+}
+
+
+/*                            duration             */
+
+
+#sliderDown h3 {
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    transition: all 0.5s;
+}
+#sliderDown .para {
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+    transition: all 1s;
+}
+
+#sliderDown{
+    margin: 100px auto;
+    width: 50%;
+    transition: all 0.5s;
+}
+
+
+/*                                 count         */
+
+#counter {
+    background-image: url(../photes/yu.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 330px;
+  }
+  .counter-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+    color: white;
+  }
+  .tim {
+    padding: 50px;
+    border: 1px solid #fff;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  
+  
+
+
+
+/*                         contact         */
+
+#contact .container{
+    padding: 50px 0px;
+}
+
+#contact .social{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    transition: all 0.5s;
+   
+}
+
+
+#contact i{
+    font-size: 20px;
+    transition: all 0.5s;
+}
+#contact .social:hover i{
+    color: white;
+    
+}
+#contact .social:hover {
+    background-color: red;
+}
